@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+</head>
+<body>
+    <h1 class="text-center">Carrito de Compras</h1>
+    <main class="contenedor-principal">
+        <section>
+            <h2>Catálogo de Productos</h2>
+            <div id="catalogo-estante" class="grid-productos">
+
+            </div>
+        </section>
+        <aside class="carrito-flotante">
+            <h2>Mi carrito</h2>
+            <ul id="lista-carrito">
+
+            </ul>
+            <div class="total">
+                <strong>Total</strong>
+                <span id="total-precio">0</span>
+            </div>
+            <button type="button" id="btn-vaciar">Vaciar el carrito</button>
+        </aside>
+    </main>
+
+    <!--asociar con el js-->
+    <script type="module" src="../js/carrito.js"></script>
+</body>
+</html>

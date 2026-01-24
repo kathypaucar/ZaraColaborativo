@@ -1,0 +1,51 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background: blanchedalmond;
+}
+
+.contenedor-principal{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.grid-productos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 60%;
+}
+
+.card{
+    background: peachpuff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px, solid, purple;
+}
+
+.carrito-flotante{
+    width: 40%;
+    background: gray;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid palevioletred;
+}
+
+li{
+    margin-bottom: 10px;
+    border-bottom: 1px solid blueviolet;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    cursor: pointer;
+    background: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
